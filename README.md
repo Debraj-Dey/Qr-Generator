@@ -1,5 +1,9 @@
 # Qr-Code-Generator
-This is a simple web-based QR code generator project that allows you to create QR codes for any text or URL you input. The project is built using HTML, TailwindCSS and JavaScript.
+This is a simple web-based QR code generator project that allows you to create QR codes for any text or URL you input. The project is built using HTML, TailwindCSS and JavaScript. 
+
+## Features
+- Generate QR codes for any text or URL you input.
+- Dark and Light mode support for comfortable viewing experience in different environments.
 
 ## How it works
 
@@ -9,6 +13,7 @@ This is a simple web-based QR code generator project that allows you to create Q
 - The QR code will be displayed below the input field.
 - If the input field is empty when you click the "Generate QR code" button, an alert will prompt you to enter some text or a URL.
 - After generating the QR code successfully, a message will appear below the QR code indicating that the QR code has been generated.
+- Scan the generated QR using a scanner to get the text or URL.
 
 This QR code generator project utilizes the "_qrserver_" API to generate QR codes. The API is publicly accessible and allows you to create QR codes dynamically based on the content you provide.
 
